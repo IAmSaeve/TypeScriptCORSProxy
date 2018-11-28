@@ -6,8 +6,8 @@ A larger list of Proxies can be found [here](https://gist.github.com/jimmywartin
 
 ## How to get started:
 Clone repo with `git clone https://github.com/sebkirller/TypeScriptCORSProxy.git`.<br>
-Run `tsc` to complie TypeScript to JavaScript once. <br>
-Run `tsc --watch` to watch for chagnes and complie when you save. <br> <br>
+Run `tsc` to compile TypeScript to JavaScript once. <br>
+Run `tsc --watch` to watch for changes and compile when you save. <br> <br>
 To view the actual output open `index.html` and look in the developer console.<br> <br>
 
 
