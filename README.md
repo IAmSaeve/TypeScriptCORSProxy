@@ -1,6 +1,6 @@
 # TypeScript CORS Proxy:
 This example show how you can avoid CORS policies from TypeScript. <br>
-In this example I will use <a href="http://cors-anywhere.herokuapp.com/" target="blank">cors-anywhere.herokuapp.com</a>. <br>
+In this example I will use http://cors-anywhere.herokuapp.com/. <br>
 A larger list of Proxies can be found [here](https://gist.github.com/jimmywarting/ac1be6ea0297c16c477e17f8fbe51347).
 <br><br>
 
