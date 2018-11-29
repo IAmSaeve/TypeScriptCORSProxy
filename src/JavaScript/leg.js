@@ -1,7 +1,7 @@
 export class Leg {
     constructor(name, type, origin, destination) {
-        this.Name = name;
-        this.Type = type;
+        this.name = name;
+        this.type = type;
         this.Origin = origin;
         this.Destination = destination;
     }

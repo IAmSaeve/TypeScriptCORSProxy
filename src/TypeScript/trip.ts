@@ -1,17 +1,17 @@
 import { Leg } from "./leg";
 
 export class Trip {
-    public Alternative: boolean;
-    public Cancelled: boolean;
-    public Valid: boolean;
-    public Legs: Leg[];
+    public alternative: boolean;
+    public cancelled: boolean;
+    public valid: boolean;
+    public Leg: Leg[];
 
- constructor(legs: Leg[], alternative?: boolean, valid?: boolean, cancelled?: boolean) {
-    this.Legs = legs;
+ constructor(leg: Leg[], alternative?: boolean, valid?: boolean, cancelled?: boolean) {
+    this.Leg = leg;
 
-    this.Alternative = alternative && alternative || false;
-    this.Valid = valid && valid || false;
-    this.Cancelled = cancelled && cancelled || false;
+    this.alternative = alternative && alternative || false;
+    this.valid = valid && valid || false;
+    this.cancelled = cancelled && cancelled || false;
 }
 
 }

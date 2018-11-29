@@ -1,14 +1,14 @@
 import { Destination } from "./destination";
 import { Origin } from "./origin";
 export class Leg {
-    public Name: string;
-    public Type: string;
+    public name: string;
+    public type: string;
     public Origin: Origin;
     public Destination: Destination;
 
     constructor(name: string, type: string, origin: Origin, destination: Destination) {
-        this.Name = name;
-        this.Type = type;
+        this.name = name;
+        this.type = type;
         this.Origin = origin;
         this.Destination = destination;
     }
